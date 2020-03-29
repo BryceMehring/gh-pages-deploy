@@ -1,6 +1,6 @@
 {
   "name": "@brycemehring/gh-pages-deploy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "module": "src/main.mjs",
   "main": "src/main.mjs",
@@ -17,7 +17,9 @@
     "url": "https://github.com/BryceMehring/gh-pages-deploy/issues"
   },
   "homepage": "https://github.com/BryceMehring/gh-pages-deploy#readme",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "engines": {
     "node": ">= 13"
   },
