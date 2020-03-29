@@ -1,0 +1,27 @@
+{
+  "name": "@brycemehring/gh-pages-deploy",
+  "version": "0.0.0",
+  "description": "",
+  "module": "src/main.mjs",
+  "main": "src/main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryceMehring/gh-pages-deploy.git"
+  },
+  "author": "Bryce Mehring",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BryceMehring/gh-pages-deploy/issues"
+  },
+  "homepage": "https://github.com/BryceMehring/gh-pages-deploy#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "engines": {
+    "node": ">= 13"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
