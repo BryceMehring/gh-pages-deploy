@@ -1,6 +1,6 @@
 {
   "name": "@brycemehring/gh-pages-deploy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "module": "src/main.mjs",
   "main": "src/main.mjs",
